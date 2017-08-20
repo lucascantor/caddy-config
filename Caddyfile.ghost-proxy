@@ -1,0 +1,3 @@
+proxy / http://10.138.176.65:2368 {
+    transparent
+}

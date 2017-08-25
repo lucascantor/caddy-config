@@ -8,6 +8,7 @@ header / {
                 img-src 'self' *.imgur.com *.unsplash.com;
                 font-src 'self' fonts.googleapis.com;
         "
+        Referrer-Policy "no-referrer"
 }
 gzip
 tls lucascantor@gmail.com

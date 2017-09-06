@@ -2,4 +2,3 @@ import ./Caddyfile.lucascantor.com
 import ./Caddyfile.blog.lucascantor.com
 import ./Caddyfile.francesca-and-lucas.com
 import ./Caddyfile.lizzythepooch.com
-import ./Caddyfile.harvestcrisp.com

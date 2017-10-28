@@ -5,8 +5,8 @@ header / {
         X-Frame-Options "DENY"
         Content-Security-Policy "
                 default-src 'self';
-                img-src 'self' *.imgur.com *.unsplash.com;
-                font-src 'self' fonts.googleapis.com;
+                img-src 'self' https://i.imgur.com https://images.unsplash.com;
+                font-src 'self' https://fonts.googleapis.com;
         "
         Referrer-Policy "no-referrer"
 }

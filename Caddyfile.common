@@ -4,7 +4,10 @@ header / {
         X-Content-Type-Options "nosniff"
         X-Frame-Options "DENY"
         Content-Security-Policy "
-                default-src 'self';
+                default-src 'none';
+                object-src 'none';
+                base-uri 'none';
+                frame-ancestors 'none';
                 img-src 'self' https://i.imgur.com https://images.unsplash.com;
                 font-src 'self' https://fonts.googleapis.com;
         "
